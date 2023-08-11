@@ -1,8 +1,8 @@
 
 
-## FOLIO
+## PORTFOLIO
 
-[Live Demo](https://namanrai.in/)
+[Live Demo](https://naman006-rai.github.io/)
 
 ## How to run on local?
 
