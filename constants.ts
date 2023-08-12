@@ -4,7 +4,7 @@ export const METADATA = {
   title: "Portfolio | Naman Rai",
   description:
     "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
-  siteUrl: "https://namanrai.in/",
+  siteUrl: "https://naman006-rai.github.io/",
 };
 
 export const MENULINKS = [
@@ -61,7 +61,7 @@ export const SKILLS = {
     "html",
     "css",
   ],
-  backend:["java","nodejs","python","SQL","DynamoDB", "openSearch", "spring"],
+  backend:["java","nodejs","python","SQL","mysql", "DynamoDB", "openSearch", "spring"],
   other: ["git", "terraform", "AWS", "Azure", "jenkins"],
 };
 
