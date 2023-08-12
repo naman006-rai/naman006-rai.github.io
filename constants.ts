@@ -84,24 +84,40 @@ export enum ItemSize {
 export const TIMELINE: Array<TimelineNodeV2> = [
   {
     type: NodeTypes.CHECKPOINT,
-    title: "August, 2022",
+    title: "2022",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
   {
-    type: NodeTypes.CHECKPOINT,
-    title: "Senior Software Engineer 2 (Current)",
-    size: ItemSize.SMALL,
-    subtitle: "Full Stack Engineer @ Nike",
-    image: "/timeline/nike.svg",
-    slideImage: "/timeline/nike.gif",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
+    type: NodeTypes.DIVERGE,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "March, 2021",
+    title: "Senior Software Engineer- II",
+    size: ItemSize.SMALL,
+    subtitle: "August, 2022 - Current",
+    image: "/timeline/nike.gif",
+    slideImage: "/timeline/nike.gif",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Completed Master of Technology in Software Engineering",
+    size: ItemSize.SMALL,
+    subtitle: "December, 2022",
+    image: "/timeline/bits.png",
+    slideImage: "/timeline/bits.png",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
+  },
+  {
+    type: NodeTypes.CONVERGE,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "2021",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
@@ -111,7 +127,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Senior System Engineer",
     size: ItemSize.SMALL,
     subtitle:
-      "Full Stack Developer @ IBM",
+      "March, 2021",
     image: "/timeline/ibm.svg",
     slideImage: "/timeline/ibm.gif",
     shouldDrawLine: true,
@@ -119,21 +135,38 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Decemeber, 2018",
+    title: "2018",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.DIVERGE,
   },
   {
     type: NodeTypes.CHECKPOINT,
     title: "Programmer Analyst",
     size: ItemSize.SMALL,
     subtitle:
-      "Java Developer @ Cognizant",
+      "December,2018",
     image: "/timeline/cognizant.svg",
     slideImage: "/timeline/cognizant.jpeg",
     shouldDrawLine: true,
-    alignment: Branch.LEFT,
+    alignment: Branch.RIGHT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Completed Bachelor of Technology in Electrical and Electronics Engineering",
+    size: ItemSize.SMALL,
+    subtitle:
+      "July, 2018",
+    image: "/timeline/AKTU.jpeg",
+    slideImage: "/timeline/AKTU.jpeg",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
+  },
+  {
+    type: NodeTypes.CONVERGE,
   },
 ];
 
