@@ -61,7 +61,7 @@ export const SKILLS = {
     "html",
     "css",
   ],
-  backend:["java","nodejs","python","SQL","mysql", "DynamoDB", "openSearch", "spring"],
+  backend:["java","nodejs","python","SQL","mysql", "DynamoDB", "OpenSearch", "spring"],
   other: ["git", "terraform", "AWS", "Azure", "jenkins"],
 };
 
