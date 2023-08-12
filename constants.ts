@@ -61,8 +61,8 @@ export const SKILLS = {
     "html",
     "css",
   ],
-  backend:["java","nodejs","python","SQL","mysql", "DynamoDB", "OpenSearch", "spring"],
-  other: ["git", "terraform", "AWS", "Azure", "jenkins"],
+  backend:["java","nodejs","python","sql","mysql", "DynamoDB", "OpenSearch", "spring"],
+  other: ["git", "terraform", "aws", "azure", "jenkins"],
 };
 
 export enum Branch {
